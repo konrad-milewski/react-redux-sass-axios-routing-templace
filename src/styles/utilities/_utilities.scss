@@ -1,0 +1,26 @@
+@each $rotate, $rotate-deg in $rotate-list {
+    .rotate-#{$rotate} {
+        transform: rotate($rotate-deg);
+    }
+}
+
+.table-crud {
+    width: 100%;    
+    .col {
+        max-width: 230px;
+        min-width: 70px;
+        overflow: hidden;
+    }
+
+    img {
+        max-height: 50px;
+        max-width: 50px;
+    }
+}
+
+.crud {
+    img {
+        max-height: 200px;
+        max-width: 200px;
+    }
+}

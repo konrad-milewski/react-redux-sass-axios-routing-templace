@@ -1,0 +1,8 @@
+import authReducer from "./actions/auth/duck";
+import { combineReducers } from "redux";
+
+const rootReducer = combineReducers({
+  auth: authReducer,
+});
+
+export default rootReducer;
